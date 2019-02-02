@@ -51,13 +51,13 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     settings-logtags \
 
 LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
-    packages/apps/SuperiorSettings/res \
+    packages/apps/AncientSettings/res \
 	    packages/apps/SmartNavSettings/res
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
 LOCAL_AAPT_FLAGS := --auto-add-overlay \
-    --extra-packages com.superior.settings
+    --extra-packages com.ancient.settings
 
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
