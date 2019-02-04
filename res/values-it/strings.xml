@@ -3819,7 +3819,7 @@
     <string name="data_usage_wifi_title" msgid="7063659423081820720">"Dati Wi‑Fi"</string>
     <string name="data_used" msgid="5116389957228457203">"Dati utilizzati: <xliff:g id="ID_1">^1</xliff:g>"</string>
     <string name="data_used_formatted" msgid="2989129931961311051">"Dati utilizzati: <xliff:g id="ID_1">^1</xliff:g> <xliff:g id="ID_2">^2</xliff:g>"</string>
-    <string name="data_overusage" msgid="1134445012475270295">"Superiore a <xliff:g id="ID_1">^1</xliff:g>"</string>
+    <string name="data_overusage" msgid="1134445012475270295">"Ancient a <xliff:g id="ID_1">^1</xliff:g>"</string>
     <string name="data_remaining" msgid="8998091725895502181">"Dati rimanenti: <xliff:g id="ID_1">^1</xliff:g>"</string>
     <plurals name="billing_cycle_days_left" formatted="false" msgid="456503215317213651">
       <item quantity="other">%d giorni rimanenti</item>

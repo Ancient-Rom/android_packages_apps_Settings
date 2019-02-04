@@ -53,5 +53,5 @@
 }
 -keep class android.support.v4.app.CoreComponentFactory
 
-# SuperiorSettings
--keep class com.superior.settings.**
+# AncientSettings
+-keep class com.ancient.settings.**

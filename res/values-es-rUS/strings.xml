@@ -3100,7 +3100,7 @@
     <string name="zen_mode_restrict_notifications_mute_footer" msgid="3465600930732602159">"El teléfono no sonará ni vibrará cuando recibas notificaciones."</string>
     <string name="zen_mode_restrict_notifications_hide" msgid="5305121630186687339">"Notificaciones sin sonido ni elementos visuales"</string>
     <string name="zen_mode_restrict_notifications_hide_summary" msgid="7555448406901864904">"No verás ni oirás notificaciones"</string>
-    <string name="zen_mode_restrict_notifications_hide_footer" msgid="6559283246372102465">"Tu teléfono no mostrará notificaciones nuevas o existentes. Tampoco vibrará ni sonará. Las notificaciones no aparecerán cuando deslices el dedo hacia abajo desde la parte superior de la pantalla.\n\nTen en cuenta que seguirán apareciendo las notificaciones clave de la actividad y el estado del teléfono."</string>
+    <string name="zen_mode_restrict_notifications_hide_footer" msgid="6559283246372102465">"Tu teléfono no mostrará notificaciones nuevas o existentes. Tampoco vibrará ni sonará. Las notificaciones no aparecerán cuando deslices el dedo hacia abajo desde la parte ancient de la pantalla.\n\nTen en cuenta que seguirán apareciendo las notificaciones clave de la actividad y el estado del teléfono."</string>
     <string name="zen_mode_restrict_notifications_custom" msgid="7498689167767941034">"Personalizada"</string>
     <string name="zen_mode_restrict_notifications_enable_custom" msgid="4250962169561739747">"Habilitar configuración personalizada"</string>
     <string name="zen_mode_restrict_notifications_disable_custom" msgid="6676997522330453597">"Quitar configuración personalizada"</string>
@@ -3402,7 +3402,7 @@
     <string name="switch_on_text" msgid="1124106706920572386">"Activado"</string>
     <string name="switch_off_text" msgid="1139356348100829659">"Desactivado"</string>
     <string name="screen_pinning_title" msgid="2292573232264116542">"Fijar pantalla"</string>
-    <string name="screen_pinning_description" msgid="1110847562111827766">"Si se activa esta opción, puedes fijar la pantalla para mantener la vista de la pantalla actual.\n\nPara usar esta función:\n\n1. Asegúrate de que esté activada la opción.\n\n2. Abre Recientes.\n\n3. Presiona el ícono de la app en la parte superior de la pantalla y, luego, presiona Fijar."</string>
+    <string name="screen_pinning_description" msgid="1110847562111827766">"Si se activa esta opción, puedes fijar la pantalla para mantener la vista de la pantalla actual.\n\nPara usar esta función:\n\n1. Asegúrate de que esté activada la opción.\n\n2. Abre Recientes.\n\n3. Presiona el ícono de la app en la parte ancient de la pantalla y, luego, presiona Fijar."</string>
     <string name="screen_pinning_unlock_pattern" msgid="8282268570060313339">"Solicitar desbloqueo para quitar fijación"</string>
     <string name="screen_pinning_unlock_pin" msgid="8757588350454795286">"Solicitar PIN para quitar fijación"</string>
     <string name="screen_pinning_unlock_password" msgid="2514079566873826434">"Solicitar contraseña para quitar fijación"</string>

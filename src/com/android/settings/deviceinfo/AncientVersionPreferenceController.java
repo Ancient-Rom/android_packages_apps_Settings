@@ -34,11 +34,11 @@ import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.core.lifecycle.LifecycleObserver;
 import com.android.settingslib.core.lifecycle.events.OnResume;
 
-public class SuperiorVersionPreferenceController extends AbstractPreferenceController implements
+public class AncientVersionPreferenceController extends AbstractPreferenceController implements
         PreferenceControllerMixin, LifecycleObserver, OnResume {
 
-    private static final String TAG = "SuperiorVersionPref";
-    private static final String KEY_SUPERIOR_VERSION = "superior_version";
+    private static final String TAG = "AncientVersionPref";
+    private static final String KEY_ANCIENT_VERSION = "ancient_version";
 
     private final UserManager mUserManager;
 
@@ -47,7 +47,7 @@ public class SuperiorVersionPreferenceController extends AbstractPreferenceContr
 
     private long[] mHits = new long[3];
 
-    public SuperiorVersionPreferenceController(Context context, Lifecycle lifecycle) {
+    public AncientVersionPreferenceController(Context context, Lifecycle lifecycle) {
         super(context);
         mUserManager = (UserManager) context.getSystemService(Context.USER_SERVICE);
         if (lifecycle != null) {
@@ -65,13 +65,13 @@ public class SuperiorVersionPreferenceController extends AbstractPreferenceContr
         super.displayPreference(screen);
         final Preference pref = screen.findPreference(getPreferenceKey());
         if (pref != null) {
-            pref.setSummary(Build.SUPERIOR_DISPLAY_VERSION);
+            pref.setSummary(Build.ANCIENT_DISPLAY_VERSION);
         }
     }
 
     @Override
     public String getPreferenceKey() {
-        return KEY_SUPERIOR_VERSION;
+        return KEY_ANCIENT_VERSION;
     }
 
     @Override
@@ -84,7 +84,7 @@ public class SuperiorVersionPreferenceController extends AbstractPreferenceContr
 
     @Override
     public boolean handlePreferenceTreeClick(Preference preference) {
-        if (!TextUtils.equals(preference.getKey(), KEY_SUPERIOR_VERSION)) {
+        if (!TextUtils.equals(preference.getKey(), KEY_ANCIENT_VERSION)) {
             return false;
         }
         System.arraycopy(mHits, 1, mHits, 0, mHits.length - 1);

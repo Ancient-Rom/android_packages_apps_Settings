@@ -98,7 +98,7 @@
 
     <Preference
         android:key="force_ambient_for_media_pref"
-        android:fragment="com.superior.settings.fragments.AmbientTicker"
+        android:fragment="com.ancient.settings.fragments.AmbientTicker"
         android:title="@string/force_ambient_for_media_pref_title"
         android:summary="@string/force_ambient_for_media_pref_summary"
         settings:userRestriction="no_ambient_display" />
@@ -161,7 +161,7 @@
         android:title="@string/font_picker_title"
         android:persistent="false" />
 
-    <com.superior.settings.preferences.SystemSettingSwitchPreference
+    <com.ancient.settings.preferences.SystemSettingSwitchPreference
          android:key="force_allow_system_themes"
          android:title="@string/force_allow_system_themes_title"
          android:summary="@string/force_allow_system_themes_summary"

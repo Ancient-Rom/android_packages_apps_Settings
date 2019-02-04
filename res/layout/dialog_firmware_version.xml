@@ -34,7 +34,7 @@
            <ImageView
 	       android:layout_width="match_parent"
  	       android:layout_height="match_parent"
-	       android:src="@drawable/ic_superior_banner"
+	       android:src="@drawable/ic_ancient_banner"
 	       android:adjustViewBounds="true"
 	       android:scaleType="centerInside" />
 
@@ -54,13 +54,13 @@
 
         <TextView
             style="@style/device_info_dialog_label"
-            android:id="@+id/superior_version_label"
+            android:id="@+id/ancient_version_label"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/superior_version"/>
+            android:text="@string/ancient_version"/>
         <TextView
             style="@style/device_info_dialog_value"
-            android:id="@+id/superior_version_value"
+            android:id="@+id/ancient_version_value"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.superior;
+package com.android.settings.ancient;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -526,6 +526,6 @@ public class AccentPicker extends InstrumentedDialogFragment implements OnClickL
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.SUPERIOR;
+        return MetricsProto.MetricsEvent.ANCIENT;
     }
 }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2018 Superior OS Project
+     Copyright (C) 2018 A OS Project
       Copyright (C) 2018 Project dotOS
 	 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,10 +15,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- About phone screen, Superior OS version -->
-    <string name="superior_version">SuperiorOS version</string>
-    <string name="superior_version_default">Unknown</string>
-    <string name="keywords_superior_version">SuperiorOS version, superior version</string>
+    <!-- About phone screen, Ancient ROM version -->
+    <string name="ancient_version">Ancient version</string>
+    <string name="ancient_version_default">Unknown</string>
+    <string name="keywords_ancient_version">ANCIENT version, ancient version</string>
 
     <!-- About phone screen, build date -->
     <string name="build_date">Build date</string>
@@ -68,7 +68,7 @@
     <string name="systemui_theme_style_light">Light</string>
     <string name="systemui_theme_style_dark">Dark</string>
     <string name="system_theme_style_black">Black</string>
-    <string name="system_theme_style_superior">Superior</string>
+    <string name="system_theme_style_ancient">Ancient</string>
     <string name="applying_theme_toast">Applying theme, please wait...</string>
     <string name="theme_applied_toast">Theme applied!</string>
     <string name="substratum_installed_title">System themes are unavailable because a Substratum overlay is installed. Please uninstall all overlays targeting Android System to proceed.</string>

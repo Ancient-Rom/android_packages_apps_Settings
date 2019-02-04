@@ -3404,7 +3404,7 @@
     <string name="switch_on_text" msgid="1124106706920572386">"Ativado"</string>
     <string name="switch_off_text" msgid="1139356348100829659">"Desativado"</string>
     <string name="screen_pinning_title" msgid="2292573232264116542">"Fixação de tela"</string>
-    <string name="screen_pinning_description" msgid="1110847562111827766">"Quando esta configuração está ativada, você pode usar a fixação de tela para manter a tela atual em exibição até ela ser liberada.\n\nPara usar a fixação de tela:\n\n1. Verifique se o recurso está ativado.\n\n2. Abra a Visão geral.\n\n3. Toque no ícone do app na parte superior da tela e depois em Fixar."</string>
+    <string name="screen_pinning_description" msgid="1110847562111827766">"Quando esta configuração está ativada, você pode usar a fixação de tela para manter a tela atual em exibição até ela ser liberada.\n\nPara usar a fixação de tela:\n\n1. Verifique se o recurso está ativado.\n\n2. Abra a Visão geral.\n\n3. Toque no ícone do app na parte ancient da tela e depois em Fixar."</string>
     <string name="screen_pinning_unlock_pattern" msgid="8282268570060313339">"Pedir padrão de desbloqueio antes de desafixar"</string>
     <string name="screen_pinning_unlock_pin" msgid="8757588350454795286">"Pedir PIN antes de desafixar"</string>
     <string name="screen_pinning_unlock_password" msgid="2514079566873826434">"Pedir senha antes de desafixar"</string>

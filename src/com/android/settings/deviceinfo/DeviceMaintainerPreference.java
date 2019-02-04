@@ -28,7 +28,7 @@ public class DeviceMaintainerPreference extends AbstractPreferenceController imp
         PreferenceControllerMixin {
 
     private static final String KEY_MAINTAINER_PREFS = "device_maintainer";
-    private static final String KEY_MAINTAINER_PROP = "ro.superior.maintainer";
+    private static final String KEY_MAINTAINER_PROP = "ro.ancient.maintainer";
 
     public DeviceMaintainerPreference(Context context) {
         super(context);

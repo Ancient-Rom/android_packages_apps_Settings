@@ -30,16 +30,16 @@ import android.view.View;
 import com.android.settings.R;
 import com.android.settingslib.RestrictedLockUtils;
 
-public class SuperiorVersionDialogController  implements View.OnClickListener {
+public class AncientVersionDialogController  implements View.OnClickListener {
 
     private static final String TAG = "ExtfirmwareDialogCtrl";
     private static final int DELAY_TIMER_MILLIS = 500;
     private static final int ACTIVITY_TRIGGER_COUNT = 3;
 
     @VisibleForTesting
-    static final int SUPERIOR_VERSION_VALUE_ID = R.id.superior_version_value;
+    static final int ANCIENT_VERSION_VALUE_ID = R.id.ancient_version_value;
     @VisibleForTesting
-    static final int SUPERIOR_VERSION_LABEL_ID = R.id.superior_version_label;
+    static final int ANCIENT_VERSION_LABEL_ID = R.id.ancient_version_label;
 
     private final FirmwareVersionDialogFragment mDialog;
     private final Context mContext;
@@ -49,7 +49,7 @@ public class SuperiorVersionDialogController  implements View.OnClickListener {
     private RestrictedLockUtils.EnforcedAdmin mFunDisallowedAdmin;
     private boolean mFunDisallowedBySystem;
 
-    public SuperiorVersionDialogController(FirmwareVersionDialogFragment dialog) {
+    public AncientVersionDialogController(FirmwareVersionDialogFragment dialog) {
         mDialog = dialog;
         mContext = dialog.getContext();
         mUserManager = (UserManager) mContext.getSystemService(Context.USER_SERVICE);
@@ -87,13 +87,13 @@ public class SuperiorVersionDialogController  implements View.OnClickListener {
         initializeAdminPermissions();
         registerClickListeners();
 
-        mDialog.setText(SUPERIOR_VERSION_VALUE_ID,
-                BidiFormatter.getInstance().unicodeWrap(Build.SUPERIOR_DISPLAY_VERSION));
+        mDialog.setText(ANCIENT_VERSION_VALUE_ID,
+                BidiFormatter.getInstance().unicodeWrap(Build.ANCIENT_DISPLAY_VERSION));
     }
 
     private void registerClickListeners() {
-        mDialog.registerClickListener(SUPERIOR_VERSION_LABEL_ID, this /* listener */);
-        mDialog.registerClickListener(SUPERIOR_VERSION_VALUE_ID, this /* listener */);
+        mDialog.registerClickListener(ANCIENT_VERSION_LABEL_ID, this /* listener */);
+        mDialog.registerClickListener(ANCIENT_VERSION_VALUE_ID, this /* listener */);
     }
 
     /**

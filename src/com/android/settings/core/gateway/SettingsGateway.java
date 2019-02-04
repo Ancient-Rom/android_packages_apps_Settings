@@ -143,7 +143,7 @@ import com.android.settings.wifi.calling.WifiCallingSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
-import com.superior.settings.SuperiorSettings;
+import com.ancient.settings.AncientSettings;
 
 public class SettingsGateway {
 
@@ -270,7 +270,7 @@ public class SettingsGateway {
             DirectoryAccessDetails.class.getName(),
             ToggleBackupSettingFragment.class.getName(),
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
-            SuperiorSettings.class.getName(),
+            AncientSettings.class.getName(),
             RunningServices.class.getName(),
             NavigationSettingsActivity.class.getName(),
             SmartbarSettingsActivity.class.getName(),
@@ -314,7 +314,7 @@ public class SettingsGateway {
             Settings.DeviceInfoSettingsActivity.class.getName(),
             Settings.EnterprisePrivacySettingsActivity.class.getName(),
             Settings.MyDeviceInfoActivity.class.getName(),
-            Settings.SuperiorSettingsActivity.class.getName(),
+            Settings.AncientSettingsActivity.class.getName(),
             Settings.DevRunningServicesActivity.class.getName(),
             Settings.NavigationSettingsActivity.class.getName(),
             Settings.SmartbarSettingsActivity.class.getName(),

@@ -14,7 +14,7 @@
     limitations under the License.
  */
 
-package com.android.settings.superior;
+package com.android.settings.ancient;
 
 import android.app.Fragment;
 import android.content.res.Resources;
@@ -50,7 +50,7 @@ public class Changelog extends SettingsPreferenceFragment {
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.SUPERIOR;
+        return MetricsProto.MetricsEvent.ANCIENT;
     }
 
     private static final String CHANGELOG_PATH = "/system/etc/Changelog.txt";
