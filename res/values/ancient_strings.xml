@@ -20,6 +20,10 @@
     <string name="ancient_version_default">Unknown</string>
     <string name="keywords_ancient_version">ANCIENT version, ancient version</string>
 
+    <!-- About phone screen, Ancient ROM about -->
+    <string name="ancient_about_info">About Project</string>
+    <string name="ancient_about_info_summary_title">See more info about this project</string>
+	
     <!-- About phone screen, build date -->
     <string name="build_date">Build date</string>
     <string name="build_date_default">2015-01-01-0000</string>
