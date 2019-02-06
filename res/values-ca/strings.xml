@@ -283,7 +283,7 @@
     <string name="locale_not_translated" msgid="516862628177166755">"És possible que no estigui disponible en algunes aplicacions"</string>
     <string name="action_drag_label_move_up" msgid="9052210023727612540">"Mou amunt"</string>
     <string name="action_drag_label_move_down" msgid="7448713844582912157">"Mou avall"</string>
-    <string name="action_drag_label_move_top" msgid="557081389352288310">"Mou a la part superior"</string>
+    <string name="action_drag_label_move_top" msgid="557081389352288310">"Mou a la part ancient"</string>
     <string name="action_drag_label_move_bottom" msgid="2468642142414126482">"Mou a la part inferior"</string>
     <string name="action_drag_label_remove" msgid="2861038147166966206">"Suprimeix l\'idioma"</string>
     <string name="activity_picker_label" msgid="6295660302548177109">"Selecció de l\'activitat"</string>
